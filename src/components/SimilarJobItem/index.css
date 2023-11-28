@@ -1,0 +1,125 @@
+.similar-job-item {
+  width: 40%;
+  background-color: #202020;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.similar-job-company-logo-rating-card {
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+
+.similar-job-company-logo {
+  width: 20%;
+  margin-right: 10px;
+}
+
+.similar-job-rating-card {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.similar-job-position-title {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.similar-job-rating-icon-card {
+  display: flex;
+  align-items: center;
+}
+
+.similar-job-star-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  color: #fbbf24;
+}
+
+.similar-job-rating-value {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.similar-job-location-employment-type-card {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.similar-job-location-card,
+.similar-job-employment-type-card {
+  display: flex;
+  align-items: center;
+}
+
+.similar-job-location-icon,
+.similar-job-employment-icon {
+  width: 20px;
+  height: 20px;
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+.similar-job-location,
+.similar-job-employment-type {
+  font-family: 'Roboto';
+  color: #f1f5f9;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.similar-job-description-title {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.similar-job-description {
+  font-family: 'Roboto';
+  color: #f1f5f9;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0px;
+}
+
+@media (max-width: 767px) {
+  .similar-job-item {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  .similar-job-company-logo-rating-card {
+    width: 80%;
+  }
+
+  .similar-job-position-title {
+    font-size: 20px;
+  }
+
+  .similar-job-description-title {
+    font-size: 20px;
+  }
+
+  .similar-job-description {
+    font-size: 14px;
+  }
+}

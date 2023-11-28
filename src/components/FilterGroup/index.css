@@ -1,0 +1,72 @@
+.employ-type-group,
+.salary-range-group {
+  font-family: 'Roboto';
+  color: #f1f5f9;
+  font-weight: 500;
+  font-size: 18px;
+  width: 80%;
+}
+
+.employ-type-card {
+  width: 80%;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-bottom: 2px solid #b6c5ff;
+}
+
+.employ-item,
+.salary-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.checkbox-input {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  margin: 10px 5px 10px 0px;
+}
+.employ-label,
+.salary-label {
+  font-family: 'Roboto';
+  color: #f1f5f9;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.salary-type-card {
+  width: 80%;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.salary-input {
+  width: 15px;
+  height: 15px;
+  border-radius: 7.5px;
+  cursor: pointer;
+  margin: 10px 5px 10px 0px;
+}
+
+@media (max-width: 767px) {
+  .employ-type-group,
+  .salary-range-group {
+    width: 90%;
+  }
+
+  .employ-type-card {
+    width: 90%;
+  }
+
+  .salary-type-card {
+    width: 90%;
+  }
+}

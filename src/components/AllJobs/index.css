@@ -1,0 +1,142 @@
+.nav-card {
+  text-decoration: none;
+  width: 100%;
+}
+.job-item {
+  width: 100%;
+  background-color: #202020;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.company-logo-rating-card {
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+
+.company-logo {
+  width: 20%;
+  margin-right: 10px;
+}
+
+.rating-card {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.position-title {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.rating-icon-card {
+  display: flex;
+  align-items: center;
+}
+
+.star-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  color: #fbbf24;
+}
+
+.rating-value {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.location-package-employment-type-card {
+  width: 100%;
+  border-bottom: 2px solid #475569;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.location-employment-type-card {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.location-card,
+.employment-type-card-card {
+  display: flex;
+  align-items: center;
+}
+
+.location-icon,
+.employment-icon {
+  width: 20px;
+  height: 20px;
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+.location,
+.employment-type {
+  font-family: 'Roboto';
+  color: #f1f5f9;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.package {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.description-title {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.job-description {
+  font-family: 'Roboto';
+  color: #f1f5f9;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0px;
+}
+
+@media (max-width: 767px) {
+  .company-logo-rating-card {
+    width: 80%;
+  }
+
+  .position-title {
+    font-size: 22px;
+  }
+
+  .location-employment-type-card {
+    width: 50%;
+  }
+
+  .package {
+    font-size: 18px;
+  }
+
+  .description-title {
+    font-size: 18px;
+  }
+}
